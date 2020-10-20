@@ -1,0 +1,46 @@
+@font-face{
+  font-family:pot;
+  src: url("Potra.ttf")
+}
+.m{
+  background-color:#282B47;
+}
+.the{
+  background-color:#6A647D;
+  border-style:double;
+  border-color:#434B63;
+  border-width:15px;
+  border-radius:20px;
+  font-family:pot;
+  color:#434B63;
+  font-size:40px;
+  text-align:center;
+  padding: 15px;
+}
+.sizing{
+  width:1287px;
+  height:730px;
+}
+@media screen and (max-width: 800px) {
+  .sizing.responsive{
+    width:750px;
+    height:520px;
+  }
+@media screen and (max-width: 700px) {
+  .sizing.responsive{
+    width:600px;
+    height:420px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .sizing.responsive{
+    width:500px;
+    height:320px;
+  }
+}@media screen and (max-width: 400px) {
+  .sizing.responsive{
+    width:370px;
+    height:220px;
+  }
+}
+
