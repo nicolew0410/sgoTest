@@ -2,6 +2,21 @@
   font-family:pot;
   src: url("Potra.ttf")
 }
+a{
+  text-decoration:none;
+  cursor:pointer;
+  color:#434B63;
+}
+.qu{
+  width:420px;
+  height:700px;
+}
+.eek{
+  border-width:8px;
+  border-radius:10px;
+  border-color:#434B63;
+  border-style:solid;
+}
 .m{
   background-color:#282B47;
 }
